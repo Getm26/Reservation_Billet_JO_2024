@@ -1,0 +1,47 @@
+#### FRONTEND ###
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend-billeterie/node_modules
+frontend-billeterie/.pnp
+frontend-billeterie/.pnp.js
+
+# testing
+frontend-billeterie/coverage
+
+# production
+frontend-billeterie/build
+
+# misc
+frontend-billeterie/.DS_Store
+frontend-billeterie/.env.local
+frontend-billeterie/.env.development.local
+frontend-billeterie/.env.test.local
+frontend-billeterie/.env.production.local
+
+frontend-billeterie/npm-debug.log*
+frontend-billeterie/yarn-debug.log*
+frontend-billeterie/yarn-error.log*
+
+#### BACKEND ###
+backend-Billeterie/HELP.md
+backend-Billeterie/target/
+!backend-Billeterie/.mvn/wrapper/maven-wrapper.jar
+!backend-Billeterie/**/src/main/**/target/
+!backend-Billeterie/**/src/test/**/target/
+
+### STS ###
+backend-Billeterie/.apt_generated
+backend-Billeterie/.classpath
+backend-Billeterie/.factorypath
+backend-Billeterie/.project
+backend-Billeterie/.settings
+backend-Billeterie/.springBeans
+backend-Billeterie/.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
